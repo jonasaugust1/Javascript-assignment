@@ -47,7 +47,7 @@ const play = () => {
                                                     Your move: ${playerSelection}
                                                     Computer move: ${computerSelection}`
                 break
-            case 'SCISSORS': resultSpan.innerHTML = `<strong>You won!<strong>
+            case 'SCISSORS': resultSpan.innerHTML = `<strong>You won!</strong>
                                                         Your move: ${playerSelection}\n
                                                         Computer move: ${computerSelection}`
                 break
