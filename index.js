@@ -8,11 +8,8 @@ const computerPlay = () => {
     return moves[random]
 }
 
-computerPlay()
-
 const play = () => {
-    let playerSelection = window.prompt('Choose between Rock, Paper or Scissors')
-    playerSelection = playerSelection.toUpperCase()
+    let playerSelection = window.prompt('Choose between Rock, Paper or Scissors').toUpperCase()
 
     const computerSelection = computerPlay()
 
@@ -21,7 +18,7 @@ const play = () => {
             case 'ROCK': resultSpan.innerHTML = `<strong>It was a Draw!</strong>
                                                     Your move: ${playerSelection}
                                                     Computer move: ${computerSelection}`
-                mo
+    
                 break
             case 'PAPER': resultSpan.innerHTML = `<strong>You won!</strong>
                                                     Your move: ${playerSelection}
